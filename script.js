@@ -579,7 +579,7 @@ const products = [
         price: 3500,
         description: "Affordable mash print with colorful African motifs",
         badge: "Popular",
-        image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500&h=500&fit=crop&q=80"
+        image: "https://images.unsplash.com/photo-1768212566108-4ce4f329e4d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFmcmljYW4lMjBwcmludHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 65,
@@ -588,7 +588,7 @@ const products = [
         price: 5200,
         description: "Hand-drawn batik with warm sunset tones and intricate details",
         badge: "",
-        image: "https://images.unsplash.com/photo-1590739225287-bd31519780c3?w=500&h=500&fit=crop&q=80"
+        image: "https://images.unsplash.com/photo-1768212565424-efa3a3852b81?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFmcmljYW4lMjBwcmludHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 66,
@@ -597,7 +597,7 @@ const products = [
         price: 4600,
         description: "Bold dashiki patterns with regal color combinations",
         badge: "Popular",
-        image: "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=500&h=500&fit=crop&q=80"
+        image: "https://images.unsplash.com/photo-1664151100165-71ed5515adad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YW5rYXJhJTIwZGFzaGlraSUyMGJvbGR8ZW58MHx8MHx8fDA%3D"
     },
     {
         id: 67,
@@ -606,7 +606,7 @@ const products = [
         price: 5000,
         description: "Inspired by traditional Bogolan mud cloth of Mali",
         badge: "New",
-        image: "https://images.unsplash.com/photo-1603093272356-1e5e4a45e2d4?w=500&h=500&fit=crop&q=80"
+        image: "https://images.unsplash.com/photo-1652355004543-4618a1c79791?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW5rYXJhJTIwbXVkJTIwY2xvdGh8ZW58MHx8MHx8fDA%3D"
     },
     {
         id: 68,
