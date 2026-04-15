@@ -615,7 +615,7 @@ const products = [
         price: 6200,
         description: "Ankara print featuring cowrie shell motifs, symbol of wealth",
         badge: "Premium",
-        image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500&h=500&fit=crop&q=80"
+        image: "https://images.unsplash.com/photo-1765685537256-1ea4be3f3e00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8QW5rYXJhJTIwY293cmllJTIwZGVzaWduJTIwZmFicmljfGVufDB8fDB8fHww"
     },
     {
         id: 69,
@@ -624,7 +624,7 @@ const products = [
         price: 5500,
         description: "Royal blue and gold combination with majestic patterns",
         badge: "",
-        image: "https://images.unsplash.com/photo-1590739225287-bd31519780c3?w=500&h=500&fit=crop&q=80"
+        image: "https://images.unsplash.com/photo-1726208206168-6673899aff25?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QW5rYXJhJTIwcm95YWwlMjBmYWJyaWN8ZW58MHx8MHx8fDA%3D"
     },
     {
         id: 70,
@@ -633,7 +633,7 @@ const products = [
         price: 4000,
         description: "Traditional tribal markings translated into modern print design",
         badge: "Best Seller",
-        image: "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=500&h=500&fit=crop&q=80"
+        image: "https://images.unsplash.com/photo-1655682604476-96976c1917fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QW5rYXJhJTIwdHJpYmUlMjBmYWJyaWN8ZW58MHx8MHx8fDA%3D"
     },
     {
         id: 71,
@@ -642,7 +642,7 @@ const products = [
         price: 3800,
         description: "Calabash-inspired patterns with earthy tones and organic shapes",
         badge: "",
-        image: "https://images.unsplash.com/photo-1603093272356-1e5e4a45e2d4?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/2214934348/photo/small-business-owner-of-an-african-print-ankara-fabric-shop-proudly-displaying-different.jpg?s=1024x1024&w=is&k=20&c=AFsNM15IA6fma4ihMSGF-6AhQtrLTM25U9gcWJbvQTY="
     },
     {
         id: 72,
@@ -651,7 +651,7 @@ const products = [
         price: 4900,
         description: "Inspired by traditional African beadwork with vibrant colors",
         badge: "New",
-        image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/1199016714/photo/beautiful-storage.webp?a=1&b=1&s=612x612&w=0&k=20&c=zdCTpWKpr2SgxE8QgQG5tUUXHSSRr9gSvNgnJ6bOV-M="
     },
     {
         id: 121,
@@ -660,7 +660,7 @@ const products = [
         price: 4700,
         description: "Warm sunset tones with safari-inspired patterns, earthy feel",
         badge: "",
-        image: "https://images.unsplash.com/photo-1590739225287-bd31519780c3?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/1199016714/photo/beautiful-storage.webp?a=1&b=1&s=612x612&w=0&k=20&c=zdCTpWKpr2SgxE8QgQG5tUUXHSSRr9gSvNgnJ6bOV-M="
     },
     {
         id: 122,
@@ -669,7 +669,7 @@ const products = [
         price: 4100,
         description: "Traditional palm wine tapping ceremony inspired motifs",
         badge: "Popular",
-        image: "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=500&h=500&fit=crop&q=80"
+        image: "https://images.unsplash.com/photo-1652355004543-4618a1c79791?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW5rYXJhJTIwbXVkJTIwY2xvdGh8ZW58MHx8MHx8fDA%3D"
     },
     {
         id: 123,
@@ -678,7 +678,7 @@ const products = [
         price: 3900,
         description: "Bustling market scene translated into colorful abstract patterns",
         badge: "",
-        image: "https://images.unsplash.com/photo-1603093272356-1e5e4a45e2d4?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/2215169752/photo/small-business-owner-of-an-african-print-ankara-fabric-shop-proudly-displaying-textiles-prints.webp?a=1&b=1&s=612x612&w=0&k=20&c=WZLBebGwEw23OkRG0XgHeADfh6VCR5ukbbXQVDDAV2k="
     },
     {
         id: 124,
@@ -687,7 +687,7 @@ const products = [
         price: 5600,
         description: "Ashanti royal stool symbols woven into premium Ankara design",
         badge: "Premium",
-        image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/2215169752/photo/small-business-owner-of-an-african-print-ankara-fabric-shop-proudly-displaying-textiles-prints.webp?a=1&b=1&s=612x612&w=0&k=20&c=WZLBebGwEw23OkRG0XgHeADfh6VCR5ukbbXQVDDAV2k="
     },
     {
         id: 125,
@@ -696,7 +696,7 @@ const products = [
         price: 4300,
         description: "Rhythmic drum patterns translated into bold Ankara prints",
         badge: "New",
-        image: "https://images.unsplash.com/photo-1590739225287-bd31519780c3?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/958834384/photo/colored-cushions.jpg?s=612x612&w=0&k=20&c=CT1AW_rtgsn4MOhOvQVE9axfXteGoueQsh_NcBMvO"
     },
     {
         id: 126,
@@ -705,7 +705,7 @@ const products = [
         price: 4500,
         description: "Golden harvest celebration with rich earth tones and geometric shapes",
         badge: "Best Seller",
-        image: "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/1325042194/photo/rugs-and-carpets-outside.jpg?s=612x612&w=0&k=20&c=ioJ9cgOYV8i3eZ54PAa3V5Rob_5WIZJFZ314-IBdz_k="
     },
     {
         id: 127,
@@ -714,7 +714,7 @@ const products = [
         price: 3700,
         description: "Daily village scenes and communal life in vibrant storytelling",
         badge: "",
-        image: "https://images.unsplash.com/photo-1603093272356-1e5e4a45e2d4?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/1330668801/photo/the-shop-that-exhibits-its-rugs-and-carpets.jpg?s=612x612&w=0&k=20&c=A1sQudVsY-sw2x5L2ilhKf2yQ7P7ncrsyWS4nY6RiU4="
     },
     {
         id: 128,
@@ -723,7 +723,7 @@ const products = [
         price: 5100,
         description: "Traditional ceremonial mask patterns with spiritual significance",
         badge: "Luxury",
-        image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/1325042194/photo/rugs-and-carpets-outside.jpg?s=612x612&w=0&k=20&c=ioJ9cgOYV8i3eZ54PAa3V5Rob_5WIZJFZ314-IBdz_k="
     },
     {
         id: 129,
@@ -732,7 +732,7 @@ const products = [
         price: 4000,
         description: "Flowing river patterns with cool blues and greens, calming design",
         badge: "New",
-        image: "https://images.unsplash.com/photo-1590739225287-bd31519780c3?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/1330668801/photo/the-shop-that-exhibits-its-rugs-and-carpets.jpg?s=612x612&w=0&k=20&c=A1sQudVsY-sw2x5L2ilhKf2yQ7P7ncrsyWS4nY6RiU4="
     },
     {
         id: 130,
@@ -741,7 +741,7 @@ const products = [
         price: 4600,
         description: "Dynamic fire dance celebration with warm reds and oranges",
         badge: "Popular",
-        image: "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/960455390/photo/kilim-carpet.webp?a=1&b=1&s=612x612&w=0&k=20&c=nUXL4HKxUxwSOmxHn-bc1kKIQNyucBv6zgrzP2q2KDk="
     },
     {
         id: 131,
@@ -750,7 +750,7 @@ const products = [
         price: 4800,
         description: "Traditional storytelling through symbols and proverbs in fabric",
         badge: "",
-        image: "https://images.unsplash.com/photo-1603093272356-1e5e4a45e2d4?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/1243522123/photo/toghu-material.jpg?s=612x612&w=0&k=20&c=Nu4lwAXhaSdQT0ijh0yKlcLlG2CS05bYcJHgRiP6bQs="
     },
     {
         id: 132,
@@ -759,7 +759,7 @@ const products = [
         price: 5900,
         description: "Royal crown motifs with gold accents, premium chief collection",
         badge: "Premium",
-        image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/960455390/photo/kilim-carpet.webp?a=1&b=1&s=612x612&w=0&k=20&c=nUXL4HKxUxwSOmxHn-bc1kKIQNyucBv6zgrzP2q2KDk="
     },
 
     // Lace Fabrics
@@ -768,9 +768,9 @@ const products = [
         name: "Swiss Lace Gold",
         category: "lace",
         price: 18000,
-        description: "Exquisite Swiss lace with intricate gold embroidery",
+        description: "https://media.istockphoto.com/id/2172055063/photo/beautiful-dark-green-viridian-vintage-color-trends-feather-texture-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=mljy4DL_QOVNWV6e20IBDOsQwVjTr_RmQ9aDQzcQV9k=",
         badge: "Luxury",
-        image: "https://images.unsplash.com/photo-1603650064523-74d3f3c0c468?w=500&h=500&fit=crop&q=80"
+        image: ""
     },
     {
         id: 14,
@@ -806,7 +806,7 @@ const products = [
         price: 19500,
         description: "Premium Swiss lace with stunning emerald green embroidery",
         badge: "Luxury",
-        image: "https://images.unsplash.com/photo-1528459105319-611c5a6385ce?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/175419126/photo/high-resolution-gold-background-with-floral-pattern.webp?a=1&b=1&s=612x612&w=0&k=20&c=-BiKWLBOQe2yD0qSReKBGf9dJGIcPAv8Fl2pBBgFlzU="
     },
     {
         id: 38,
@@ -1534,6 +1534,39 @@ const products = [
     }
 ];
 
+// ===== Utility Functions =====
+
+// Escape HTML to prevent XSS
+function escapeHtml(text) {
+    if (!text) return '';
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// Format price in Naira
+function formatPrice(price) {
+    return '₦' + price.toLocaleString('en-NG');
+}
+
+// Get category display name
+function getCategoryName(category) {
+    const names = {
+        'cotton': 'Cotton Fabrics',
+        'silk': 'Silk & Satin',
+        'ankara': 'Ankara & African Prints',
+        'lace': 'Lace Fabrics',
+        'linen': 'Linen',
+        'denim': 'Denim'
+    };
+    return names[category] || category;
+}
+
+// Open order page with product ID
+function openOrderPage(productId) {
+    window.open(`order.html?id=${productId}`, '_blank');
+}
+
 // DOM Elements
 const productGrid = document.getElementById('productGrid');
 const filterBtns = document.querySelectorAll('.filter-btn');
@@ -1555,11 +1588,6 @@ const searchQueryText = document.getElementById('searchQueryText');
 const clearSearchBtn = document.getElementById('clearSearchBtn');
 
 let currentSearchQuery = '';
-
-// Format price in Naira
-function formatPrice(price) {
-    return '₦' + price.toLocaleString('en-NG');
-}
 
 // Render products
 function renderProducts(filter = 'all') {
@@ -1594,24 +1622,6 @@ function renderProducts(filter = 'all') {
         `;
         productGrid.appendChild(productCard);
     });
-}
-
-// Open order page with product ID
-function openOrderPage(productId) {
-    window.open(`order.html?id=${productId}`, '_blank');
-}
-
-// Get category display name
-function getCategoryName(category) {
-    const names = {
-        'cotton': 'Cotton Fabrics',
-        'silk': 'Silk & Satin',
-        'ankara': 'Ankara & African Prints',
-        'lace': 'Lace Fabrics',
-        'linen': 'Linen',
-        'denim': 'Denim'
-    };
-    return names[category] || category;
 }
 
 // Search functionality
@@ -1759,42 +1769,48 @@ function renderSearchResultsToGrid(results, query) {
 }
 
 // Search event handlers
+let searchTimeout;
+
+function executeSearch(query) {
+    if (!query || !query.trim()) return;
+
+    const trimmedQuery = query.trim();
+    const searchTerms = trimmedQuery.toLowerCase().split(/\s+/).filter(t => t.length > 0);
+
+    const searchResults = products.filter(product => {
+        const searchableText = `${product.name} ${product.description} ${getCategoryName(product.category)}`.toLowerCase();
+        return searchTerms.some(term => searchableText.includes(term));
+    });
+
+    // Update dropdown preview
+    performSearch(trimmedQuery);
+
+    // Update product grid with search results
+    renderSearchResultsToGrid(searchResults, trimmedQuery);
+
+    // Scroll to products section
+    document.getElementById('featured').scrollIntoView({ behavior: 'smooth' });
+}
+
 if (searchBtn) {
     searchBtn.addEventListener('click', () => {
         const query = searchInput.value;
         if (query.trim()) {
-            performSearch(query);
-            renderSearchResultsToGrid(
-                products.filter(product => {
-                    const searchableText = `${product.name} ${product.description} ${getCategoryName(product.category)}`.toLowerCase();
-                    const searchTerms = query.trim().toLowerCase().split(/\s+/);
-                    return searchTerms.some(term => searchableText.includes(term));
-                }),
-                query
-            );
-            document.getElementById('featured').scrollIntoView({ behavior: 'smooth' });
+            executeSearch(query);
+            closeSearchDropdown();
+            searchInput.blur();
         }
     });
 }
 
 if (searchInput) {
-    let searchTimeout;
-
     searchInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
+            e.preventDefault();
             const query = searchInput.value;
             if (query.trim()) {
                 clearTimeout(searchTimeout);
-                performSearch(query);
-                renderSearchResultsToGrid(
-                    products.filter(product => {
-                        const searchableText = `${product.name} ${product.description} ${getCategoryName(product.category)}`.toLowerCase();
-                        const searchTerms = query.trim().toLowerCase().split(/\s+/);
-                        return searchTerms.some(term => searchableText.includes(term));
-                    }),
-                    query
-                );
-                document.getElementById('featured').scrollIntoView({ behavior: 'smooth' });
+                executeSearch(query);
                 closeSearchDropdown();
                 searchInput.blur();
             }
@@ -1808,13 +1824,29 @@ if (searchInput) {
         if (query.trim().length === 0) {
             closeSearchDropdown();
             hideSearchClose();
+            clearSearch();
             return;
         }
 
-        // Debounce live search
+        // Show close button
+        showSearchClose();
+
+        // Debounce live search (show preview dropdown only)
         searchTimeout = setTimeout(() => {
-            performSearch(query);
+            const searchTerms = query.trim().toLowerCase().split(/\s+/).filter(t => t.length > 0);
+            const searchResults = products.filter(product => {
+                const searchableText = `${product.name} ${product.description} ${getCategoryName(product.category)}`.toLowerCase();
+                return searchTerms.some(term => searchableText.includes(term));
+            });
+            renderSearchResults(searchResults, query.trim());
         }, 300);
+    });
+
+    // Focus effect - show close button
+    searchInput.addEventListener('focus', () => {
+        if (searchInput.value.trim().length > 0) {
+            showSearchClose();
+        }
     });
 }
 
@@ -1894,7 +1926,7 @@ contactForm.addEventListener('submit', (e) => {
 
     // Create WhatsApp message
     const whatsappMessage = `Hello! My name is ${name}.%0AEmail: ${email}%0APhone: ${phone}%0A%0A${message}`;
-    const whatsappUrl = `https://wa.me/2348034785371?text=${whatsappMessage}`;
+    const whatsappUrl = `https://wa.me/2349139247948?text=${whatsappMessage}`;
 
     // Open WhatsApp with pre-filled message
     window.open(whatsappUrl, '_blank');
@@ -1904,6 +1936,47 @@ contactForm.addEventListener('submit', (e) => {
 
     alert('Thank you for your message! We will get back to you shortly.');
 });
+
+// Copy WhatsApp number function
+function copyWhatsAppNumber() {
+    const number = '09139247948';
+    navigator.clipboard.writeText(number).then(() => {
+        const btn = document.querySelector('.copy-number-btn');
+        if (btn) {
+            const originalHTML = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+            btn.classList.add('copied');
+            setTimeout(() => {
+                btn.innerHTML = originalHTML;
+                btn.classList.remove('copied');
+            }, 2000);
+        }
+    }).catch(err => {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = number;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-999999px';
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+            document.execCommand('copy');
+            const btn = document.querySelector('.copy-number-btn');
+            if (btn) {
+                const originalHTML = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.innerHTML = originalHTML;
+                    btn.classList.remove('copied');
+                }, 2000);
+            }
+        } catch (err2) {
+            alert('Please copy the number manually: ' + number);
+        }
+        document.body.removeChild(textArea);
+    });
+}
 
 // Smooth scroll for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -2090,13 +2163,6 @@ function renderComments(comments) {
     `).join('');
 }
 
-// Escape HTML to prevent XSS
-function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-}
-
 // Load comments from API
 async function loadComments() {
     if (!commentsList) return;
@@ -2139,22 +2205,29 @@ async function loadCommentsStats() {
 if (commentForm) {
     commentForm.addEventListener('submit', async (e) => {
         e.preventDefault();
-        
+
         const fullName = document.getElementById('commentName').value.trim();
         const email = document.getElementById('commentEmail').value.trim();
         const comment = document.getElementById('commentText').value.trim();
         const rating = parseInt(ratingValue.value);
-        
+
         if (!fullName || !comment) {
             alert('Please fill in your name and review');
             return;
         }
-        
+
+        if (!rating || rating < 1) {
+            alert('Please select a star rating');
+            return;
+        }
+
         const submitBtn = commentForm.querySelector('button[type="submit"]');
         const originalText = submitBtn.innerHTML;
         submitBtn.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> Posting...';
         submitBtn.disabled = true;
-        
+
+        console.log('Submitting comment:', { fullName, email, comment, rating });
+
         try {
             const response = await fetch('/api/comments', {
                 method: 'POST',
@@ -2163,12 +2236,14 @@ if (commentForm) {
                 },
                 body: JSON.stringify({ fullName, email, comment, rating })
             });
-            
+
+            console.log('Response status:', response.status);
             const data = await response.json();
-            
+            console.log('Response data:', data);
+
             if (data.success) {
                 // Clear form
-                commentForm.reset(); 
+                commentForm.reset();
                 ratingValue.value = 0;
                 if (starRating) {
                     starRating.querySelectorAll('i').forEach(s => {
@@ -2177,19 +2252,25 @@ if (commentForm) {
                         s.style.color = '';
                     });
                 }
-                
-                // Reload comments
+
+                // Reload comments immediately
+                console.log('Comment submitted successfully, reloading comments...');
                 await loadComments();
                 await loadCommentsStats();
-                
+
+                // Scroll to the comments list to show the new comment
+                if (commentsList) {
+                    commentsList.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+
                 // Show success message
-                alert('Thank you for your review!');
+                alert('Thank you for your review! Your comment has been posted.');
             } else {
                 alert(data.message || 'Failed to submit review');
             }
         } catch (error) {
             console.error('Submit comment error:', error);
-            alert('Failed to submit review. Please try again later.');
+            alert('Failed to submit review. Please make sure the server is running.');
         } finally {
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
@@ -2202,3 +2283,4 @@ document.addEventListener('DOMContentLoaded', () => {
     loadComments();
     loadCommentsStats();
 });
+

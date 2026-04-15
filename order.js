@@ -1825,7 +1825,7 @@ orderForm.addEventListener('submit', async (e) => {
         
         // Fallback: open WhatsApp with order details if API fails
         const whatsappMessage = `*New Order*%0A%0AProduct: ${formData.productName}%0ACategory: ${formData.productCategory}%0AColor: ${formData.selectedColor}%0APrice per yard: ${formatPrice(formData.pricePerYard)}%0AYards: ${formData.yards}%0ATotal: ${formatPrice(formData.totalAmount)}%0A%0A*Customer Details*%0AName: ${formData.fullName}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0A%0AMessage: ${formData.message || 'None'}%0AAddress: ${formData.address || 'Not provided'}`;
-        const whatsappUrl = `https://wa.me/2348034785371?text=${whatsappMessage}`;
+        const whatsappUrl = `https://wa.me/2349139247948?text=${whatsappMessage}`;
         window.open(whatsappUrl, '_blank');
         
         // Still show success modal

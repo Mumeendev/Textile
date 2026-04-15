@@ -1295,6 +1295,47 @@ body {
     color: var(--accent-color);
 }
 
+.whatsapp-copy {
+    font-size: 0.82rem;
+    color: var(--text-light);
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.whatsapp-copy strong {
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.copy-number-btn {
+    background: var(--bg-light);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 0.78rem;
+    color: var(--text-medium);
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.copy-number-btn:hover {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--bg-white);
+}
+
+.copy-number-btn.copied {
+    background: #10b981;
+    border-color: #10b981;
+    color: var(--bg-white);
+}
+
 .contact-form {
     background: var(--bg-white);
     padding: 40px;
