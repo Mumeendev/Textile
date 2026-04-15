@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Textiles - Quality Fabrics for Every Need</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-scroll"></i>
+                    <span>Premium Textiles</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="search-container" id="searchContainer">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" class="search-input" placeholder="Search fabrics..." autocomplete="off">
+                        <button class="search-btn" id="searchBtn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button class="search-close" id="searchClose" style="display: none;">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="search-results-dropdown" id="searchResultsDropdown"></div>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Premium Quality Fabrics</h1>
+            <p>Explore our exquisite collection of textiles for fashion, home decor, and traditional attire</p>
+            <a href="#categories" class="btn-primary">Shop Now</a>
+        </div>
+        <div class="floating-fabrics">
+            <div class="fabric fabric-1" style="--delay: 0s; --x: 8%; --y: 15%; --size: 100px; --rotation: -15deg;"></div>
+            <div class="fabric fabric-2" style="--delay: 1.2s; --x: 22%; --y: 55%; --size: 80px; --rotation: 20deg;"></div>
+            <div class="fabric fabric-3" style="--delay: 2.4s; --x: 72%; --y: 12%; --size: 120px; --rotation: -25deg;"></div>
+            <div class="fabric fabric-4" style="--delay: 0.6s; --x: 82%; --y: 65%; --size: 90px; --rotation: 30deg;"></div>
+            <div class="fabric fabric-5" style="--delay: 1.8s; --x: 48%; --y: 25%; --size: 70px; --rotation: -10deg;"></div>
+            <div class="fabric fabric-6" style="--delay: 3s; --x: 12%; --y: 75%; --size: 95px; --rotation: 15deg;"></div>
+            <div class="fabric fabric-7" style="--delay: 0.9s; --x: 62%; --y: 80%; --size: 85px; --rotation: -20deg;"></div>
+            <div class="fabric fabric-8" style="--delay: 2.1s; --x: 38%; --y: 70%; --size: 110px; --rotation: 25deg;"></div>
+            <div class="fabric fabric-9" style="--delay: 1.5s; --x: 88%; --y: 35%; --size: 75px; --rotation: -30deg;"></div>
+            <div class="fabric fabric-10" style="--delay: 2.7s; --x: 5%; --y: 40%; --size: 105px; --rotation: 10deg;"></div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">Fabric Categories</h2>
+            <p class="section-subtitle">Browse through our wide selection of premium fabrics</p>
+            
+            <div class="category-grid">
+                <div class="category-card" data-category="cotton">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1630920501459-f3e99320c4a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGljdHVyZSUyMG9mJTIwY290dG9uJTIwZmFicmljfGVufDB8fDB8fHww" alt="Cotton Fabrics" loading="lazy">
+                    </div>
+                    <div class="category-overlay">
+                        <h3>Cotton Fabrics</h3>
+                        <p>Soft, breathable fabrics perfect for everyday wear</p>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="silk">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1732869415090-179de017b6d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZhYnJpY3xlbnwwfHwwfHx8MA%3D%3D" alt="Silk & Satin" loading="lazy">
+                    </div>
+                    <div class="category-overlay">
+                        <h3>Silk & Satin</h3>
+                        <p>Luxurious fabrics for special occasions</p>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="ankara">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1552710307-537199cd41c0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ankara & African Prints" loading="lazy">
+                    </div>
+                    <div class="category-overlay">
+                        <h3>Ankara & African Prints</h3>
+                        <p>Vibrant traditional African patterns</p>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="lace">
+                    <div class="category-image">
+                        <img src="https://media.istockphoto.com/id/2230435796/photo/vibrant-guipure-lace-fabrics-in-various-shades-arranged-textile-enthusiasts-and-designers.webp?a=1&b=1&s=612x612&w=0&k=20&c=OnZqw8uE3P1b4G7U7wJoNBRmCk_nAGAmYnuBAp44W6s=" alt="Lace Fabrics" loading="lazy">
+                    </div>
+                    <div class="category-overlay">
+                        <h3>Lace Fabrics</h3>
+                        <p>Elegant designs for formal wear</p>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="linen">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1625471592808-3b848a6e9ffd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGljdHVyZSUyMG9mJTIwbGluZW4lMjBmYWJyaWN8ZW58MHx8MHx8fDA%3D" alt="Linen" loading="lazy">
+                    </div>
+                    <div class="category-overlay">
+                        <h3>Linen</h3>
+                        <p>Light and durable for all seasons</p>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="denim">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1706802196230-91ebd3174483?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBpY3R1cmUlMjBvZiUyMGRlbmltJTIwZmFicmljfGVufDB8fDB8fHww" alt="Denim" loading="lazy">
+                    </div>
+                    <div class="category-overlay">
+                        <h3>Denim</h3>
+                        <p>Durable fabrics for casual wear</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="featured" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Fabric Collection</h2>
+            <p class="section-subtitle">Quality textiles at affordable prices</p>
+
+            <!-- Search Results Info -->
+            <div class="search-results-info" id="searchResultsInfo" style="display: none;">
+                <div class="search-info-text">
+                    <i class="fas fa-search"></i>
+                    <span>Search results for: <strong id="searchQueryText"></strong></span>
+                </div>
+                <button class="btn-clear-search" id="clearSearchBtn">
+                    <i class="fas fa-times"></i>
+                    Clear Search
+                </button>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Fabrics</button>
+                <button class="filter-btn" data-filter="cotton">Cotton</button>
+                <button class="filter-btn" data-filter="silk">Silk & Satin</button>
+                <button class="filter-btn" data-filter="ankara">Ankara</button>
+                <button class="filter-btn" data-filter="lace">Lace</button>
+                <button class="filter-btn" data-filter="linen">Linen</button>
+                <button class="filter-btn" data-filter="denim">Denim</button>
+            </div>
+            
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-truck"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>Nationwide shipping available</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Quality Guaranteed</h3>
+                    <p>100% premium fabrics</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3>Best Prices</h3>
+                    <p>Competitive pricing</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Always here to help</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Comments Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Read reviews from our satisfied customers</p>
+
+            <div class="testimonials-stats" id="testimonialsStats">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalReviews">0</span>
+                    <span class="stat-label">Reviews</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="avgRating">0.0</span>
+                    <span class="stat-label">Average Rating</span>
+                </div>
+            </div>
+
+            <div class="testimonials-grid">
+                <!-- Comments Form -->
+                <div class="comment-form-container">
+                    <h3>Share Your Experience</h3>
+                    <form id="commentForm" class="comment-form">
+                        <div class="form-group">
+                            <label for="commentName">Your Name *</label>
+                            <input type="text" id="commentName" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="commentEmail">Your Email (optional)</label>
+                            <input type="email" id="commentEmail" placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Rating</label>
+                            <div class="star-rating" id="starRating">
+                                <i class="far fa-star" data-rating="1"></i>
+                                <i class="far fa-star" data-rating="2"></i>
+                                <i class="far fa-star" data-rating="3"></i>
+                                <i class="far fa-star" data-rating="4"></i>
+                                <i class="far fa-star" data-rating="5"></i>
+                            </div>
+                            <input type="hidden" id="ratingValue" value="0">
+                        </div>
+                        <div class="form-group">
+                            <label for="commentText">Your Review *</label>
+                            <textarea id="commentText" placeholder="Tell us about your experience with our fabrics..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i> Post Review
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Comments List -->
+                <div class="comments-list-container">
+                    <h3>Customer Reviews</h3>
+                    <div class="comments-list" id="commentsList">
+                        <div class="loading-comments">
+                            <i class="fas fa-circle-notch fa-spin"></i>
+                            <p>Loading reviews...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manufacturing Process Section -->
+    <section class="manufacturing">
+        <div class="container">
+            <h2 class="section-title">How Our Fabrics Are Made</h2>
+            <p class="section-subtitle">From raw materials to premium textiles - our meticulous manufacturing process</p>
+            
+            <div class="process-timeline">
+                <div class="process-step" data-step="1">
+                    <div class="step-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 1: Raw Material Selection</h3>
+                        <p>We source the finest raw materials including cotton bolls, silk cocoons, flax plants for linen, and premium synthetic fibers. Each material is carefully inspected for quality, purity, and sustainability before entering our production process.</p>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check"></i> 100% natural cotton sourcing</li>
+                            <li><i class="fas fa-check"></i> Premium silk cocoons selection</li>
+                            <li><i class="fas fa-check"></i> Organic flax harvesting</li>
+                            <li><i class="fas fa-check"></i> Quality certification checks</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="2">
+                    <div class="step-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 2: Cleaning & Processing</h3>
+                        <p>Raw materials undergo thorough cleaning to remove impurities. Cotton is ginned to separate fibers, silk cocoons are boiled to extract continuous threads, and flax is retted to separate usable fibers. This ensures pure, clean fabric base materials.</p>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check"></i> Impurity removal process</li>
+                            <li><i class="fas fa-check"></i> Fiber separation techniques</li>
+                            <li><i class="fas fa-check"></i> Natural cleaning methods</li>
+                            <li><i class="fas fa-check"></i> Purity testing & verification</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="3">
+                    <div class="step-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 3: Spinning & Yarn Creation</h3>
+                        <p>Cleaned fibers are spun into strong, uniform yarns using advanced spinning technology. The fibers are drawn out, twisted, and wound onto bobbins to create yarn of consistent thickness and strength. This step determines the fabric's durability and texture.</p>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check"></i> Precision spinning technology</li>
+                            <li><i class="fas fa-check"></i> Consistent yarn thickness</li>
+                            <li><i class="fas fa-check"></i> Strength testing protocols</li>
+                            <li><i class="fas fa-check"></i> Multiple yarn grades available</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="4">
+                    <div class="step-icon">
+                        <i class="fas fa-th-large"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 4: Weaving & Fabric Formation</h3>
+                        <p>Yarns are woven into fabric using traditional and modern weaving techniques. Our master weavers create various patterns including plain weave, twill, satin, and custom designs. The weaving process determines the fabric's drape, breathability, and appearance.</p>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check"></i> Traditional handloom weaving</li>
+                            <li><i class="fas fa-check"></i> Modern power loom technology</li>
+                            <li><i class="fas fa-check"></i> Multiple weave patterns</li>
+                            <li><i class="fas fa-check"></i> Custom pattern creation</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="5">
+                    <div class="step-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 5: Dyeing & Printing</h3>
+                        <p>The woven fabric is dyed using premium, color-fast dyes that resist fading. For printed fabrics like our Ankara collection, intricate patterns are applied using screen printing, digital printing, or traditional wax-resist techniques. Colors are vibrant and long-lasting.</p>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check"></i> Eco-friendly dye processes</li>
+                            <li><i class="fas fa-check"></i> Color-fast guarantee</li>
+                            <li><i class="fas fa-check"></i> Digital & screen printing</li>
+                            <li><i class="fas fa-check"></i> Traditional African wax printing</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="6">
+                    <div class="step-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 6: Finishing & Quality Control</h3>
+                        <p>Final finishing treatments enhance the fabric's properties - softening, mercerizing, or adding special textures. Every bolt undergoes rigorous quality inspection for color consistency, weave integrity, and overall excellence before being prepared for sale.</p>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check"></i> Softening & texturizing</li>
+                            <li><i class="fas fa-check"></i> Multi-point quality inspection</li>
+                            <li><i class="fas fa-check"></i> Fabric strength testing</li>
+                            <li><i class="fas fa-check"></i> Final color matching verification</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Get in touch for orders and inquiries</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:08034785371">08034785371</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/2348034785371" target="_blank">Chat with us</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:abdulmumeenapata72@gmail.com">abdulmumeenapata72@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Lagos, Nigeria</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Mon - Sat: 8:00 AM - 7:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Premium Textiles</h3>
+                    <p>Your trusted source for quality fabrics since 2010. We offer the best textiles for fashion, home decor, and traditional attire.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/2348034785371" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#featured">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Cotton Fabrics</a></li>
+                        <li><a href="#">Silk & Satin</a></li>
+                        <li><a href="#">Ankara Prints</a></li>
+                        <li><a href="#">Lace Fabrics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i> 08034785371</li>
+                        <li><i class="fas fa-envelope"></i> abdulmumeenapata72@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Premium Textiles. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
