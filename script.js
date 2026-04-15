@@ -1544,6 +1544,18 @@ const contactForm = document.getElementById('contactForm');
 const scrollTopBtn = document.getElementById('scrollTop');
 const header = document.querySelector('.header');
 
+// Search Elements
+const searchInput = document.getElementById('searchInput');
+const searchBtn = document.getElementById('searchBtn');
+const searchClose = document.getElementById('searchClose');
+const searchContainer = document.getElementById('searchContainer');
+const searchResultsDropdown = document.getElementById('searchResultsDropdown');
+const searchResultsInfo = document.getElementById('searchResultsInfo');
+const searchQueryText = document.getElementById('searchQueryText');
+const clearSearchBtn = document.getElementById('clearSearchBtn');
+
+let currentSearchQuery = '';
+
 // Format price in Naira
 function formatPrice(price) {
     return '₦' + price.toLocaleString('en-NG');
@@ -1601,6 +1613,225 @@ function getCategoryName(category) {
     };
     return names[category] || category;
 }
+
+// Search functionality
+function performSearch(query) {
+    if (!query || query.trim().length === 0) {
+        clearSearch();
+        return;
+    }
+
+    currentSearchQuery = query.trim().toLowerCase();
+    const searchTerms = currentSearchQuery.split(/\s+/);
+
+    const searchResults = products.filter(product => {
+        const searchableText = `${product.name} ${product.description} ${getCategoryName(product.category)}`.toLowerCase();
+        return searchTerms.some(term => searchableText.includes(term));
+    });
+
+    renderSearchResults(searchResults, query.trim());
+    showSearchResultsInfo(query.trim(), searchResults.length);
+    showSearchClose();
+}
+
+function renderSearchResults(results, query) {
+    if (!searchResultsDropdown) return;
+
+    if (results.length === 0) {
+        searchResultsDropdown.innerHTML = `
+            <div class="search-no-results">
+                <i class="fas fa-search"></i>
+                <p>No fabrics found for "<strong>${escapeHtml(query)}</strong>"</p>
+                <span>Try different keywords or browse our categories</span>
+            </div>
+        `;
+        searchResultsDropdown.style.display = 'block';
+        return;
+    }
+
+    searchResultsDropdown.innerHTML = results.slice(0, 8).map(product => `
+        <div class="search-result-item" onclick="openOrderPage(${product.id}); closeSearchDropdown();">
+            <div class="search-result-image">
+                <img src="${product.image}" alt="${escapeHtml(product.name)}" loading="lazy" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\\'fas fa-image\\' style=\\'font-size:1.5rem;color:var(--text-light);opacity:0.3\\'></i>';">
+            </div>
+            <div class="search-result-info">
+                <h4>${highlightSearchTerm(escapeHtml(product.name), query)}</h4>
+                <div class="search-result-category">${getCategoryName(product.category)}</div>
+                <p>${highlightSearchTerm(escapeHtml(product.description), query)}</p>
+                <div class="search-result-price">${formatPrice(product.price)}<span>/yard</span></div>
+            </div>
+        </div>
+    `).join('');
+
+    searchResultsDropdown.style.display = 'block';
+}
+
+function highlightSearchTerm(text, query) {
+    if (!query) return text;
+    const terms = query.trim().split(/\s+/).filter(t => t.length > 0);
+    let result = text;
+    terms.forEach(term => {
+        const regex = new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+        result = result.replace(regex, '<mark class="search-highlight">$1</mark>');
+    });
+    return result;
+}
+
+function showSearchResultsInfo(query, count) {
+    if (!searchResultsInfo) return;
+    searchResultsInfo.style.display = 'flex';
+    searchQueryText.textContent = `"${query}"`;
+}
+
+function clearSearch() {
+    currentSearchQuery = '';
+    if (searchInput) searchInput.value = '';
+    closeSearchDropdown();
+    hideSearchResultsInfo();
+    hideSearchClose();
+    renderProducts();
+}
+
+function closeSearchDropdown() {
+    if (searchResultsDropdown) {
+        searchResultsDropdown.style.display = 'none';
+    }
+}
+
+function hideSearchResultsInfo() {
+    if (searchResultsInfo) {
+        searchResultsInfo.style.display = 'none';
+    }
+}
+
+function showSearchClose() {
+    if (searchClose) searchClose.style.display = 'block';
+    if (searchBtn) searchBtn.style.display = 'none';
+}
+
+function hideSearchClose() {
+    if (searchClose) searchClose.style.display = 'none';
+    if (searchBtn) searchBtn.style.display = 'block';
+}
+
+function renderSearchResultsToGrid(results, query) {
+    productGrid.innerHTML = '';
+
+    if (results.length === 0) {
+        productGrid.innerHTML = `
+            <div class="no-results-message">
+                <i class="fas fa-search"></i>
+                <h3>No fabrics found</h3>
+                <p>We couldn't find any fabrics matching "<strong>${escapeHtml(query)}</strong>"</p>
+                <button class="btn-primary" onclick="clearSearch()">
+                    <i class="fas fa-times"></i> Clear Search
+                </button>
+            </div>
+        `;
+        return;
+    }
+
+    results.forEach(product => {
+        const productCard = document.createElement('div');
+        productCard.className = 'product-card';
+        productCard.innerHTML = `
+            <div class="product-image" onclick="openOrderPage(${product.id})">
+                <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\\'fas fa-image\\' style=\\'font-size:4rem;color:var(--text-light);opacity:0.3\\'></i>';">
+                ${product.badge ? `<span class="product-badge">${product.badge}</span>` : ''}
+            </div>
+            <div class="product-info">
+                <div class="product-category">${getCategoryName(product.category)}</div>
+                <h3 onclick="openOrderPage(${product.id})">${product.name}</h3>
+                <p class="product-description">${product.description}</p>
+                <div class="product-footer">
+                    <div class="product-price">
+                        ${formatPrice(product.price)}
+                        <span>/yard</span>
+                    </div>
+                    <button class="btn-cart" onclick="openOrderPage(${product.id})">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+            </div>
+        `;
+        productGrid.appendChild(productCard);
+    });
+}
+
+// Search event handlers
+if (searchBtn) {
+    searchBtn.addEventListener('click', () => {
+        const query = searchInput.value;
+        if (query.trim()) {
+            performSearch(query);
+            renderSearchResultsToGrid(
+                products.filter(product => {
+                    const searchableText = `${product.name} ${product.description} ${getCategoryName(product.category)}`.toLowerCase();
+                    const searchTerms = query.trim().toLowerCase().split(/\s+/);
+                    return searchTerms.some(term => searchableText.includes(term));
+                }),
+                query
+            );
+            document.getElementById('featured').scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+}
+
+if (searchInput) {
+    let searchTimeout;
+
+    searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            const query = searchInput.value;
+            if (query.trim()) {
+                clearTimeout(searchTimeout);
+                performSearch(query);
+                renderSearchResultsToGrid(
+                    products.filter(product => {
+                        const searchableText = `${product.name} ${product.description} ${getCategoryName(product.category)}`.toLowerCase();
+                        const searchTerms = query.trim().toLowerCase().split(/\s+/);
+                        return searchTerms.some(term => searchableText.includes(term));
+                    }),
+                    query
+                );
+                document.getElementById('featured').scrollIntoView({ behavior: 'smooth' });
+                closeSearchDropdown();
+                searchInput.blur();
+            }
+        }
+    });
+
+    searchInput.addEventListener('input', () => {
+        clearTimeout(searchTimeout);
+        const query = searchInput.value;
+
+        if (query.trim().length === 0) {
+            closeSearchDropdown();
+            hideSearchClose();
+            return;
+        }
+
+        // Debounce live search
+        searchTimeout = setTimeout(() => {
+            performSearch(query);
+        }, 300);
+    });
+}
+
+if (searchClose) {
+    searchClose.addEventListener('click', clearSearch);
+}
+
+if (clearSearchBtn) {
+    clearSearchBtn.addEventListener('click', clearSearch);
+}
+
+// Close search dropdown when clicking outside
+document.addEventListener('click', (e) => {
+    if (searchResultsDropdown && !searchContainer.contains(e.target)) {
+        closeSearchDropdown();
+    }
+});
 
 // Add to cart function
 function addToCart(productName) {
