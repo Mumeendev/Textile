@@ -1024,7 +1024,7 @@ const products = [
         price: 7500,
         description: "100% pure linen with natural texture and breathability",
         badge: "Premium",
-        image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&h=500&fit=crop&q=80"
+        image: "https://plus.unsplash.com/premium_photo-1701157946903-57c2821d71b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHVyZSUyMGxpbmVufGVufDB8fDB8fHww"
     },
     {
         id: 18,
@@ -1033,7 +1033,7 @@ const products = [
         price: 5500,
         description: "Comfortable linen blend, wrinkle-resistant",
         badge: "",
-        image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d635?w=500&h=500&fit=crop&q=80"
+        image: "https://media.istockphoto.com/id/2194799954/photo/dark-grey-beige-suit-coat-textile-with-piles-velvet-melange-blend-fabric-grunge-suede-texture.webp?a=1&b=1&s=612x612&w=0&k=20&c=Fq80RKHmduPleRt92XNiJT9Om73etA7kkPMaAHEtejE="
     },
     {
         id: 19,
@@ -1042,7 +1042,7 @@ const products = [
         price: 9000,
         description: "Premium Irish linen with superior quality",
         badge: "Luxury",
-        image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&h=500&fit=crop&q=80"
+        image: "https://plus.unsplash.com/premium_photo-1669999708188-2f0b4de65517?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGluZW4lMjB3aGl0ZXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 20,
@@ -1051,7 +1051,7 @@ const products = [
         price: 6800,
         description: "Soft stonewashed finish for casual elegance",
         badge: "New",
-        image: "https://images.unsplash.com/photo-1528384785426-9b76915755e2?w=500&h=500&fit=crop&q=80"
+        image: "https://plus.unsplash.com/premium_photo-1701157946903-57c2821d71b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RvbmUlMjB3YXNoZWQlMjBsaW5lbnxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 41,
