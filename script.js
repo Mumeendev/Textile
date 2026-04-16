@@ -1278,7 +1278,7 @@ const products = [
         price: 4500,
         description: "Traditional blue denim for jeans and jackets",
         badge: "Best Seller",
-        image: "https://images.unsplash.com/photo-1528384785426-9b76915755e2?w=500&h=500&fit=crop&q=80"
+        image: "https://plus.unsplash.com/premium_photo-1674828601017-2b8d4ea90aca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xhc3NpYyUyMGJsdWUlMjBkZW5pbXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 22,
