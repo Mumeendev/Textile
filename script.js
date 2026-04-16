@@ -809,8 +809,8 @@ const products = [
         image: "https://media.istockphoto.com/id/175419126/photo/high-resolution-gold-background-with-floral-pattern.webp?a=1&b=1&s=612x612&w=0&k=20&c=-BiKWLBOQe2yD0qSReKBGf9dJGIcPAv8Fl2pBBgFlzU="
     },
     {
-        id: 38,
-        name: "Venise Lace Navy",
+        id: 38,s
+        : "Venise Lace Navy",
         category: "lace",
         price: 16000,
         description: "Heavy Venise lace with bold raised patterns",
